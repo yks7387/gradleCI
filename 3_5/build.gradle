@@ -1,0 +1,4 @@
+badTask.description = 'Task Execution->'
+task badTask<<{
+ println description + 'This is Bad!'
+}
